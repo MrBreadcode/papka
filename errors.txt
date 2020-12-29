@@ -1,3 +1,6 @@
+### Linux ###
+* ~
+
 # временные файлы, которые могут быть созданы, если у процесса еще есть дескриптор удаленного файла
 .fuse_hidden *
 
@@ -9,5 +12,58 @@
 
 # Файлы .nfs создаются, когда открытый файл удаляется, но к нему все еще обращаются
 .nfs *
-# Игнорировать .txt файлы
-*.txt
+
+### macOS ###
+# Генеральный
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Значок должен заканчиваться двумя \ r
+Икона
+
+
+# Миниатюры
+._ *
+
+# Файлы, которые могут появиться в корне тома
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+. Мусор
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Каталоги, потенциально созданные на удаленном ресурсе AFP
+.AppleDB
+.AppleDesktop
+Сетевая корзина
+Временные предметы
+.apdisk
+
+### Windows ###
+# Файлы кэша эскизов Windows
+Thumbs.db
+Thumbs.db: зашифрованный
+ehthumbs.db
+ehthumbs_vista.db
+
+# Файл дампа
+* .stackdump
+
+# Файл конфигурации папки
+[Dd] esktop.ini
+
+# Корзина, используемая в общих файловых ресурсах
+$ RECYCLE.BIN /
+
+# Файлы установщика Windows
+*.такси
+* .msi
+* .msix
+* .msm
+* .msp
+
+# Ярлыки Windows
+* .lnk
