@@ -30,7 +30,11 @@ grep - утилита что ищет текст по файлам(внутри)
 ./bash hello
 Вам должны выйти все файлы по этому запросу, к примеру:
 ./.cache/tracker/meta.db
+
 ./.cache/tracker/meta.db-wal
+
 ./test.txt
+
 ./test3.txt
+
 ./snap/snap-store/common/.cache/gnome-software/odrs/ratings.json
